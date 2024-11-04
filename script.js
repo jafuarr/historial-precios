@@ -16,6 +16,7 @@ const products = [
 // Función para mostrar productos populares
 function displayPopularProducts() {
     const productContainer = document.getElementById("popular-products");
+    productContainer.innerHTML = ""; // Limpiar el contenedor antes de agregar nuevos productos
     products.forEach(product => {
         const productCard = document.createElement("div");
         productCard.className = "product-card";
