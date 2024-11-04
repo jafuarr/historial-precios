@@ -3,32 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Historial de Precios Amazon México</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Historial de Precios Amazon</title>
 </head>
 <body>
     <header>
-        <h1>Historial de Precios Amazon México</h1>
-        <p>Encuentra el historial de precios de tus productos favoritos en Amazon México.</p>
-        <form id="search-form">
-            <input type="text" id="search-input" placeholder="Buscar productos en Amazon">
-            <button type="submit">Buscar</button>
-        </form>
+        <h1>Historial de Precios Amazon</h1>
+        <input type="text" id="search-input" placeholder="Buscar producto...">
+        <button id="search-button">Buscar</button>
     </header>
-    
-    <main>
-        <section id="popular-products">
-            <h2>Productos Populares</h2>
-            <!-- Los productos se agregarán aquí con JavaScript -->
-        </section>
-        
-        <section id="price-alerts">
-            <h2>Configura Alertas de Precio</h2>
-            <p>Recibe notificaciones cuando los productos que te interesan bajen de precio.</p>
-        </section>
+    <main id="product-container">
+        <!-- Aquí se mostrarán los productos -->
     </main>
-
     <script src="script.js"></script>
 </body>
 </html>
