@@ -2,13 +2,13 @@
 const products = [
     {
         name: "Producto 1",
-        image: "https://m.media-amazon.com/images/I/81V+bqLfQGL._AC_SL1500_.jpg", // URL directa de imagen
+        image: "https://m.media-amazon.com/images/I/81VUedJZyBL.__AC_SX300_SY300_QL70_ML2_.jpg", // URL directa de imagen
         description: "Descripción del producto 1",
         affiliateLink: "https://amzn.to/48EnuCH"
     },
     {
         name: "Producto 2",
-        image: "https://m.media-amazon.com/images/I/91DwpwVf+sL._AC_SL1500_.jpg", // URL directa de imagen
+        image: "https://m.media-amazon.com/images/I/41HCeyEFICL._AC_SX679_.jpg", // URL directa de imagen
         description: "Descripción del producto 2",
         affiliateLink: "https://amzn.to/48ypSee"
     }
