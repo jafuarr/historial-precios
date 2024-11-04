@@ -1,24 +1,14 @@
-// Evento para el formulario de búsqueda
-document.getElementById('search-form').addEventListener('submit', function(event) {
-    event.preventDefault();
-    const searchTerm = document.getElementById('search-input').value;
-    if (searchTerm) {
-        const amazonSearchUrl = `https://www.amazon.com.mx/s?k=${encodeURIComponent(searchTerm)}&tag=historialprec-20`;
-        window.open(amazonSearchUrl, '_blank');
-    }
-});
-
-// Productos con enlaces de afiliado e imágenes de prueba
+// Productos con enlaces de afiliado y URLs de imagen directas
 const products = [
     {
         name: "Producto 1",
-        image: "https://via.placeholder.com/200", // URL de una imagen de prueba
+        image: "https://m.media-amazon.com/images/I/81V+bqLfQGL._AC_SL1500_.jpg", // URL directa de imagen
         description: "Descripción del producto 1",
         affiliateLink: "https://amzn.to/48EnuCH"
     },
     {
         name: "Producto 2",
-        image: "https://via.placeholder.com/200", // URL de una imagen de prueba
+        image: "https://m.media-amazon.com/images/I/91DwpwVf+sL._AC_SL1500_.jpg", // URL directa de imagen
         description: "Descripción del producto 2",
         affiliateLink: "https://amzn.to/48ypSee"
     }
@@ -38,4 +28,3 @@ products.forEach(product => {
     `;
     productSection.appendChild(productDiv);
 });
-
